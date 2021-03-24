@@ -10,18 +10,18 @@ package gameenvironment;
  * @author ACER
  */
 public class GamePlayer {
-    double width;
-    double height;
-    int positionX;
-    int positionY;
+    private double width;
+    private double height;
+    private int positionX;
+    private int positionY;
     
-    GamePlayer() {
+    public GamePlayer() {
     }
     
-    GamePlayer(double width, double height) {
+    public GamePlayer(double width, double height) {
     }
     
-    GamePlayer(double width, double height, int positionX, int positionY) {
+    public GamePlayer(double width, double height, int positionX, int positionY) {
     }
     
     public void setDimension(double newWidth, double newHeight) {
@@ -34,19 +34,19 @@ public class GamePlayer {
         positionY = newPositionY;
     }
     
-    double getWidth() {
+    public double getWidth() {
         return width;
     }
     
-    double getHeight() {
+    public double getHeight() {
         return height;
     }
     
-    int getX() {
+    public int getX() {
         return positionX;
     }
     
-    int getY() {
+    piblic int getY() {
         return positionY;
     }
     
