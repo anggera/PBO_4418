@@ -10,18 +10,18 @@ package gameenvironment;
  * @author ACER
  */
 public class GameEnemy {
-    double width;
-    double height;
-    int positionX;
-    int positionY;
+    private double width;
+    private double height;
+    private int positionX;
+    private int positionY;
     
-    GameEnemy(){
+    public GameEnemy(){
     }
     
-    GameEnemy(double width, double height) {
+    public GameEnemy(double width, double height) {
     }
     
-    GameEnemy(double width, double height, int positionX, int positionY) {
+    public GameEnemy(double width, double height, int positionX, int positionY) {
     }
     
     public void setDimension(double newWidth, double newHeight) {
@@ -34,19 +34,19 @@ public class GameEnemy {
         positionY = newPositionY;
     }
     
-    double getWidth() {
+    public double getWidth() {
         return width;
     }
     
-    double getHeight() {
+    public double getHeight() {
         return height;
     }
     
-    int getX() {
+    public int getX() {
         return positionX;
     }
     
-    int getY() {
+    public int getY() {
         return positionY;
     }
     
