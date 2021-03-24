@@ -46,7 +46,7 @@ public class GamePlayer {
         return positionX;
     }
     
-    piblic int getY() {
+    public int getY() {
         return positionY;
     }
     
